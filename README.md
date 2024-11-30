@@ -27,7 +27,7 @@ Success is defined by employed students
 	•	Control structures: loops and conditionals
 	•	Week 2: Getting Started with Python
 	•	Setting up your development environment
-	•	Writing and running your first Python script
+	•	Writing and running your first JavaScript script
 	•	Week 3: Functions and Modules
 	•	Creating reusable code blocks
 	•	Importing and using modules
