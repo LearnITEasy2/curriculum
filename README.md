@@ -16,16 +16,13 @@ Success is defined by employed students
 	•	Week 3: Networking Fundamentals
 	•	What is the Internet?
 	•	Basic networking concepts and terminology
-	•	Week 4: Cybersecurity Essentials
-	•	Understanding threats and protection
-	•	Best practices for staying safe online
 
 🌟 Season 2: Programming Fundamentals
 
 	•	Week 1: Introduction to Programming Concepts
 	•	Variables, data types, and operators
 	•	Control structures: loops and conditionals
-	•	Week 2: Getting Started with Python
+	•	Week 2: Getting Started with JavaScript
 	•	Setting up your development environment
 	•	Writing and running your first JavaScript script
 	•	Week 3: Functions and Modules
@@ -46,21 +43,27 @@ Success is defined by employed students
 	•	Week 3: JavaScript Basics
 	•	Making your webpage interactive
 	•	Basic syntax and DOM manipulation
-	•	Week 4: Building a Simple Website (TODO list)
+ 	•	Week 4 Introduction to Databases and APIs
+  	•	Intro about Databases
+   	•	Intro about APIs
+ 	•	Week 5: Tools of the Trade
+	•	Version control with Git
+	•	Collaboration using GitHub
+	•	Week 6: Building a Simple Website (TODO list)
 	•	Combining HTML, CSS, and JavaScript
 	•	Project: Your personal portfolio site
 
 🌟 Season 4: Exploring Specializations
 
-	•	Week 1: Introduction to Databases
+	•	Week 1: More about Databases
 	•	Understanding SQL and database concepts
 	•	Basic queries and data management
-	•	Week 2: Overview of IT Careers
+ 	•	Week 2: Cybersecurity Essentials
+	•	Understanding threats and protection
+	•	Best practices for staying safe online
+	•	Week 3: Overview of IT Careers
 	•	Software Development, Networking, Cybersecurity
 	•	Day-in-the-life insights
-	•	Week 3: Tools of the Trade
-	•	Version control with Git
-	•	Collaboration using GitHub
 	•	Week 4: Next Steps in Learning
 	•	Resources for further specialization
 	•	Setting personal learning goals
