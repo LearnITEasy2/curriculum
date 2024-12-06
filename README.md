@@ -46,7 +46,7 @@ Success is defined by employed students
  	•	Week 4 Introduction to Databases and APIs
   	•	Intro about Databases
    	•	Intro about APIs
- 	•	Week 5: Tools of the Trade
+ 	•	Week 5: Version control instruments
 	•	Version control with Git
 	•	Collaboration using GitHub
 	•	Week 6: Building a Simple Website (TODO list)
