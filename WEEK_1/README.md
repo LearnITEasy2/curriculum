@@ -2,11 +2,7 @@
 ![](./cover.png)
 Welcome to your first week of Season 1! Let’s start by understanding the very basics of what makes a computer tick. Whether you’re learning this to start a new career or just to satisfy your curiosity, getting familiar with these fundamentals will help you feel more comfortable as we move into more complex topics.
 
-## 1. Hardware vs. Software
-	•	Hardware: These are the physical components you can touch—like the keyboard, mouse, monitor, and the computer’s internal parts (CPU, RAM, hard drive). Think of hardware as the “body” of the machine.
-	•	Software: This is the “brain” or instructions that tell the hardware what to do. Software includes the operating system (like Windows, macOS, or Linux) and applications (like web browsers, word processors, or games).
-
-## 2. How Computers Work
+## 1. How Computers Work
 A computer follows a cycle: it takes input, processes it, then produces output and stores results.  
 
 	•	Input: You type on a keyboard or click with a mouse.
@@ -14,14 +10,23 @@ A computer follows a cycle: it takes input, processes it, then produces output a
 	•	Output: You see results on the screen or hear sounds through speakers.
 	•	Storage: Data is saved for later use, so you don’t lose your work.
 
-## 3. Key Components Inside the Computer
+To make this flow working, computer has to integrate 
+hardware and software into a coherent unit.
+
+## 2. Hardware vs. Software
+	•	Hardware: These are the physical components you can touch—like the keyboard, mouse, monitor, and the computer’s internal parts (CPU, RAM, hard drive). Think of hardware as the “body” of the machine.
+	•	Software: This is the “brain” or instructions that tell the hardware what to do. Software includes the operating system (like Windows, macOS, or Linux) and applications (like web browsers, word processors, or games).
+
+
+## 3. Hardware: Key Components Inside the Computer
 	•	CPU (Central Processing Unit): Often called the “brain” of the computer, the CPU performs calculations, interprets instructions, and runs programs. Its speed is measured in GHz (gigahertz), indicating how many operations it can handle per second.
 	•	Memory (RAM): This is the computer’s short-term memory. It stores data and instructions currently in use so the CPU can quickly access them. The more RAM you have, the more programs you can run smoothly at the same time.
 	•	Storage: Devices like hard drives (HDD) or solid-state drives (SSD) serve as long-term memory. They keep your files, applications, and operating system safe even when the computer is off. SSDs are generally faster but often more expensive than HDDs.
 
 ![https://data-flair.training/blogs/basics-of-computer-hardware-and-software/](https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/05/hardware-Software-block-diagram.jpg)
 
-## Software
+
+## 4. Software
 Software is a set of instructions that tells the computer what to do. It’s divided into two main categories:
 
     •	System Software: This includes the operating system (like Windows, macOS, or Linux) and utility programs that help manage the computer’s resources. The operating system controls hardware and software, manages files, and provides a user interface.
