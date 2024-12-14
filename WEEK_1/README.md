@@ -10,7 +10,7 @@ A computer follows a cycle: it takes input, processes it, then produces output a
 	•	Output: You see results on the screen or hear sounds through speakers.
 	•	Storage: Data is saved for later use, so you don’t lose your work.
 
-To make this flow working, computer has to integrate 
+To make this flow work, a computer has to integrate 
 hardware and software into a coherent unit.
 
 ## 2. Hardware vs. Software
@@ -39,12 +39,16 @@ Hardware and software work together like a team: the hardware provides the physi
 
 Understanding these basic concepts will give you the confidence to navigate the tech world. You’ll know what’s going on under the hood when your computer boots up, when you install new software, or when you add more RAM to improve performance. As we move forward, we’ll build on these fundamentals, exploring operating systems, networks, and more.
 
+Spoiler: The more you learn about hardware and software, the more you’ll see how they shape the digital world around you. In advanced IT roles, you will consider how to optimize software to run on specific hardware, or how to design new hardware to support innovative software, or how to efficiently store and process data. This knowledge will help you troubleshoot issues, improve performance, and even create your own software solutions.
+
 ## The Focus of This Course:
-While hardware forms the foundation, it’s the **SOFTWARE** that makes your computer truly useful. By understanding software, you can learn how programs are written, how they communicate with your computer’s components, and how to improve or customize your digital environment. This knowledge will not only help you troubleshoot common issues but also give you the building blocks to create software of your own as you advance in your IT journey.
+While hardware forms the foundation, it’s the **SOFTWARE** that makes your computer truly useful. By understanding software, you can learn how programs are written, how they communicate with your computer’s components, and how to improve or customize your digital environment. This knowledge will not only help you troubleshoot common issues but also give you the building blocks to create software of your own as you advance in your IT journey. In this course, we will learn how to design Application Software.
 
 ## Next Steps:
-    •   Links:
-        •   [Модель OSI – это просто](https://wiki.merionet.ru/articles/model-osi-eto-prosto)
-        •   [Программное обеспечение компьютера, состав и структура. Назначение операционной системы.](https://vplaksina.narod.ru/uchebnik/po.htm)
-	•	Think about your own device: Can you identify the CPU, RAM, and storage type your computer uses?
-	•	Stay tuned for Week 2, where we’ll dive deeper into Operating Systems and learn to navigate Windows, macOS, and Linux with confidence!
+- Links:
+  * [Как работает процессор, просто о сложном](https://www.youtube.com/watch?v=gcAvhi9sOvA&pp=ygUu0JrQsNC6INGA0LDQsdC-0YLQsNC10YIg0YbQv9GDINC4INC_0LDQvNGP0YLRjA%3D%3D)
+  * [Модель OSI – это просто](https://wiki.merionet.ru/articles/model-osi-eto-prosto)
+  * [Программное обеспечение компьютера, состав и структура. Назначение операционной системы.](https://vplaksina.narod.ru/uchebnik/po.htm)
+  * [Как работает компьютерная память: что такое RAM, ROM, SSD, HDD и в чем разница?](https://www.youtube.com/watch?v=tjbB2vh627s&t=381s&pp=ygUq0LLQuNC00Ysg0L_QsNC80Y_RgtC4INC60L7QvNC_0YzRjtGC0LXRgNCw)
+- Think about your own device: Can you identify the CPU, RAM, and storage type your computer uses?
+- Stay tuned for Week 2, where we’ll dive deeper into Operating Systems and learn to navigate Windows, macOS, and Linux with confidence!
