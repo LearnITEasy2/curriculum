@@ -7,7 +7,7 @@ Success is defined by employed students
 ## Plan
 🌟 Season 1: Foundations of IT
 
-	•	Week 1: Introduction to Computers
+	•	[Week 1: Introduction to Computers](./WEEK_1)
 	•	Understanding hardware vs. software
 	•	How computers work: CPU, memory, storage
 	•	Week 2: Operating Systems Basics
