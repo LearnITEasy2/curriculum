@@ -91,34 +91,7 @@ Networking is the backbone of modern communication. These exercises will help yo
 
 ---
 
-## Exercise 4: Inspecting DNS Resolution with `nslookup` or `dig`
-
-**Goal:** Explore how DNS translates domain names to IP addresses.
-
-1. Open the terminal (CLI).
-2. Use one of the following commands:
-   - **With `nslookup`:**
-     ```
-     nslookup google.com
-     ```
-   - **With `dig` (if installed):**
-     ```
-     dig google.com
-     ```
-3. Observe the output:
-   - Look for the "Address" section to find the IP address of `google.com`.
-   - If using `dig`, note the "ANSWER SECTION."
-
-**Questions to consider:**
-
-- What happens if you query a domain that doesn’t exist?
-  **Answer:** The command will return an error, indicating that the DNS server could not resolve the domain name.
-- Can you find both IPv4 and IPv6 addresses for a domain?
-  **Answer:** Yes, many modern domains provide both IPv4 and IPv6 addresses. They will appear as separate entries in the output.
-
----
-
-## Exercise 5: Monitoring Network Traffic with `netstat`
+## Exercise 4: Monitoring Network Traffic with `netstat`
 
 **Goal:** Identify active network connections on your device.
 
@@ -139,14 +112,14 @@ Networking is the backbone of modern communication. These exercises will help yo
 
 ---
 
-## Exercise 6: Bonus - Simulating a Simple HTTP Request with `curl`
+## Exercise 5: Bonus - Simulating a Simple HTTP Request with `curl`
 
 **Goal:** Learn how to interact with web servers.
 
 1. Open the terminal (CLI).
 2. Run the following command:
    ```
-   curl -I https://google.com
+   curl -I https://www.google.com/
    ```
 3. Observe the output:
    - This shows the HTTP headers returned by the server.
@@ -254,34 +227,7 @@ Networking is the backbone of modern communication. These exercises will help yo
 
 ---
 
-## Упражнение 4: Исследование DNS с помощью `nslookup` или `dig`
-
-**Цель:** Узнать, как DNS преобразует доменные имена в IP-адреса.
-
-1. Откройте терминал (CLI).
-2. Используйте одну из следующих команд:
-   - **С помощью `nslookup`:**
-     ```
-     nslookup google.com
-     ```
-   - **С помощью `dig` (если установлен):**
-     ```
-     dig google.com
-     ```
-3. Наблюдайте за выводом:
-   - Найдите раздел "Address", чтобы определить IP-адрес `google.com`.
-   - Если вы используете `dig`, обратите внимание на раздел "ANSWER SECTION".
-
-**Вопросы для размышления:**
-
-- Что произойдет, если вы запросите несуществующий домен?
-  **Ответ:** Команда вернет ошибку, указывающую на то, что DNS-сервер не смог разрешить доменное имя.
-- Можете ли вы найти как IPv4, так и IPv6 адреса для домена?
-  **Ответ:** Да, многие современные домены предоставляют как IPv4, так и IPv6 адреса. Они будут отображаться в виде отдельных записей в выводе.
-
----
-
-## Упражнение 5: Мониторинг сетевого трафика с помощью `netstat`
+## Упражнение 4: Мониторинг сетевого трафика с помощью `netstat`
 
 **Цель:** Определить активные сетевые подключения на вашем устройстве.
 
@@ -302,14 +248,14 @@ Networking is the backbone of modern communication. These exercises will help yo
 
 ---
 
-## Упражнение 6: Бонус — Эмуляция простого HTTP-запроса с помощью `curl`
+## Упражнение 5: Бонус — Эмуляция простого HTTP-запроса с помощью `curl`
 
 **Цель:** Научиться взаимодействовать с веб-серверами.
 
 1. Откройте терминал (CLI).
 2. Выполните следующую команду:
    ```
-   curl -I https://google.com
+   curl -I https://www.google.com/
    ```
 3. Наблюдайте за выводом:
    - Вы увидите HTTP-заголовки, возвращаемые сервером.

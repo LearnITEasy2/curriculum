@@ -85,11 +85,10 @@ A **firewall** is like a security guard that protects your network. It carefully
 - Devices like routers and firewalls keep everything running smoothly and securely.
 
 
-For hands-on practice, please refer to the [Networking Exercises](#file:Exercises.md-context).
+For hands-on practice, please refer to the [Networking Exercises](Exercises.md)
 
 ---
 ---
-
 
 # Неделя 3: Основы сетей
 
@@ -177,4 +176,4 @@ For hands-on practice, please refer to the [Networking Exercises](#file:Exercise
 - Устройства, такие как маршрутизаторы и брандмауэры, обеспечивают бесперебойную и безопасную работу сети.
 
 
-Для практических упражнений, пожалуйста, обратитесь к [Сетевые упражнения](#file:Exercises.md-context).
+Для практических упражнений, пожалуйста, обратитесь к [Сетевые упражнения](Exercises.md)
