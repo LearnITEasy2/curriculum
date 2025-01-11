@@ -22,9 +22,11 @@ Success is defined by employed students
 
 🌟 Season 2: Programming Fundamentals
 
-	•	Week 1: Introduction to Programming Concepts
-	•	Variables, data types, and operators
-	•	Control structures: loops and conditionals
+[Week 1: Introduction to Programming Concepts](./2_SEASON/WEEK_1/README.md)
+* Variables, data types, and operators
+* Control structures: loops and conditionals
+
+
 	•	Week 2: Getting Started with JavaScript
 	•	Setting up your development environment
 	•	Writing and running your first JavaScript script
