@@ -7,16 +7,16 @@ Success is defined by employed students
 ## Plan
 🌟 Season 1: Foundations of IT
 
-[Week 1: Introduction to Computers](./WEEK_1/README.md)
+[Week 1: Introduction to Computers](./1_SEASON/WEEK_1/README.md)
 * Understanding hardware vs. software. 
 * How computers work: CPU, memory, storage.
 
-[Week 2: Operating Systems Basics](./WEEK_2/README.md)
+[Week 2: Operating Systems Basics](./1_SEASON/WEEK_2/README.md)
 * Navigating Windows, macOS, and Linux. 
 * Command-line introduction.
 
 
-[Week 3: Networking Fundamentals](./WEEK_3/README.md)
+[Week 3: Networking Fundamentals](./1_SEASON/WEEK_3/README.md)
 * What is the Internet?  
 * Basic networking concepts and terminology. 
 
