@@ -26,9 +26,11 @@ Success is defined by employed students
 * Variables, data types, and operators
 * Control structures: loops and conditionals
 
-	•	Week 2: Getting Started with JavaScript
-	•	Setting up your development environment
-	•	Writing and running your first JavaScript script
+[Week 2: Getting Started with JavaScript](./2_SEASON/WEEK_2/README.md)
+* Setting up your development environment
+* Writing and running your first JavaScript script
+
+
 	•	Week 3: Functions and Modules
 	•	Creating reusable code blocks
 	•	Importing and using modules
