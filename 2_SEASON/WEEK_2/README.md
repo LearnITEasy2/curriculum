@@ -1,5 +1,3 @@
-🌟 Season 2: Programming Fundamentals 🌟
-
 # Week 2: Getting Started with JavaScript
 ![](./js_getting_started.png)
 
@@ -157,7 +155,7 @@ In this lecture, we set up your development environment, installed the necessary
 -------------------------------------------------------------------------------------------
 
 
-# Лекция: Начало работы с JavaScript
+# Неделя 2: Начало работы с JavaScript
 
 ## Часть 1: Настройка вашего рабочего окружения
 
