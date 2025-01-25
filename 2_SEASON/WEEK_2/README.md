@@ -65,244 +65,228 @@ In the **Elements** tab, you can see the HTML structure of your website. This is
 
 The **Network** tab allows you to track all network requests made by your site. This is useful if your site is loading data from servers (e.g., via AJAX requests).
 
-## Part 2: Writing and Running Your First JavaScript Script
+## Part 2: Differences Between Node.js and Browser JavaScript Engines
 
-Now that your environment is ready, let's dive into writing and running your first JavaScript script. In this example, we will explore user interaction and dynamic updates to the webpage, making it both engaging and interactive.
+Before we start writing code, it’s helpful to understand how JavaScript works in the **browser** and in **Node.js**, as these two environments have different characteristics. Understanding these differences will help you better understand what you can and cannot do in each of them.
 
-### Step 1: Creating an HTML File
+### **1. Environment and Purpose**
 
-JavaScript typically works in conjunction with HTML. Let's create a simple HTML file that will load and run our JavaScript code.
+- **JavaScript in the Browser**:
+  - **What is it?** JavaScript in the browser runs on web pages, like the ones you open in a browser (e.g., Chrome, Firefox, or Safari). It allows interaction with the content of the page: changing text, images, or responding to user actions like clicks.
+  - **Examples of Use**:
+    - Updating text or images on the page without reloading the site.
+    - Validating form data (e.g., checking if an email is entered correctly).
+    - Sending requests to the server to fetch data without reloading the page (e.g., using **AJAX** or **Fetch API**). We will cover this in more detail in later lessons.
+  
+- **Node.js**:
+  - **What is it?** Node.js is an environment for running JavaScript outside of the browser. It is used for server-side work, not on a webpage. Node.js allows you to write server-side code that can handle user requests, work with files on your computer, manage databases, and much more.
+  - **Examples of Use**:
+    - Creating web servers that can handle user requests.
+    - Working with files: reading and writing data on the server.
+    - Handling requests from users via APIs (e.g., sending and receiving data from a server).
 
-1. Open VSCode.
-2. Create a new file and save it with the `.html` extension, for example, `index.html`.
-3. Insert the following code into the file:
+## Part 3: Writing and Running Your First JavaScript Script
 
-   ```html
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>My First JavaScript</title>
-   </head>
-   <body>
-       <h1>Welcome to the World of JavaScript!</h1>
-       <p id="message">The result will be displayed here.</p>
+Now that your environment is ready, let’s write and run your first JavaScript script. Today, we will work with code outside the browser, that is, in **Node.js**.
 
-       <script src="script.js"></script>
-   </body>
-   </html>
-   ```
+### Step 1: Launch Visual Studio Code (VS Code).
 
-   This code creates an HTML page with a title and a paragraph where the JavaScript output will appear.
+### Step 2: Creating a New Project and File for the Script
 
-### Step 2: Writing JavaScript Code
+1. **Creating a New Folder for the Project**:
+   - Create a folder on your computer where you will store all your JavaScript files. For example, name it "JavaScript_Projects".
+   - In **VS Code**, select **File** -> **Open Folder** and choose this folder.
 
-Now, let's create the JavaScript file.
+2. **Creating a New JavaScript File**:
+   - In **VS Code**, click on **File** -> **New File**.
+   - In the new window that opens, write your JavaScript code.
+   - Save the file: **File** -> **Save As**. Choose a file name (e.g., `app.js` or `script.js`) and make sure the file extension is **.js**.
 
-1. In VSCode, create a new file and save it as `script.js` in the same folder as your HTML file.
-2. Insert the following code into `script.js`:
+### Step 3: Writing Your First JavaScript Script
+
+1. **Creating a Simple Script**:
+   - Write the code that you want to run. For starters, use the following code to display a message:
+
+     ```javascript
+     console.log("Hello, World!");
+     ```
+
+2. **Save the File**:
+   - After writing the code, don’t forget to save the file by pressing **Ctrl + S** (Windows) or **Cmd + S** (Mac).
 
-   ```javascript
-   // Ask for the user's name
-   const name = prompt("What is your name?");
-   
-   // Get the current date and time
-   const date = new Date();
-   const hours = date.getHours();
-   let greeting;
-
-   // Create a greeting based on the time of day
-   if (hours < 12) {
-       greeting = "Good morning";
-   } else if (hours < 18) {
-       greeting = "Good afternoon";
-   } else {
-       greeting = "Good evening";
-   }
-
-   // Display the personalized message on the page
-   const messageElement = document.getElementById("message");
-   messageElement.textContent = `${greeting}, ${name}! The current time is: ${date.toLocaleTimeString()}`;
-   ```
-
-   This code does the following:
-   1. Asks the user for their name using `prompt`.
-   2. Determines the time of day and creates the corresponding greeting.
-   3. Changes the text of the element with id `message` on the page to display the personalized greeting and the current time.
-
-### Step 3: Running the Script
-
-Now let's run the script.
-
-1. Open the `index.html` file in your browser.
-2. Open the developer tools (press **F12** or right-click and select **Inspect**).
-3. Go to the **Console** tab. You won't see any messages in the console because we're displaying the result directly on the page, but you will see the personalized greeting and the current time displayed on the page.
-
-When you open the page, the browser will prompt you for your name, and then display a message like:
-
-```console
-Good morning, John! The current time is: 10:30:15
-```
-
-Congratulations, you've just written your first JavaScript script!
-
-## Conclusion
-
-In this lecture, we set up your development environment, installed the necessary tools, and wrote a simple JavaScript program. You learned how to work with HTML and JavaScript, and how to run code in the browser. This is just the beginning, and in the next lecture, we will dive deeper into more advanced JavaScript concepts.
-
-
--------------------------------------------------------------------------------------------
-
-
-# Неделя 2: Начало работы с JavaScript
-
-## Часть 1: Настройка вашего рабочего окружения
-
-Перед тем как начать писать код на JavaScript, нам нужно настроить рабочее окружение для удобства и эффективности. Пройдемся по всем шагам, чтобы подготовить все необходимое для начала.
-
-### Шаг 1: Установка текстового редактора
-
-Для написания JavaScript-кода вам нужен текстовый редактор. Это может быть простой редактор, например, Notepad++ или более сложный, как Visual Studio Code (VSCode). Мы будем использовать VSCode, так как он бесплатный, мощный и удобный.
-
-1. Перейдите на сайт [Visual Studio Code](https://code.visualstudio.com/).
-2. Нажмите кнопку **Download for Windows** (или для вашей операционной системы).
-3. После загрузки откройте файл и следуйте инструкциям на экране, чтобы установить VSCode.
-
-### Шаг 2: Установка Node.js
-
-Node.js — это среда выполнения JavaScript, которая позволяет запускать JavaScript на вашем компьютере, а не только в браузере. Это особенно полезно для разработки серверных приложений. Мы будем использовать Node.js для запуска скриптов на вашем компьютере.
-
-1. Перейдите на сайт [Node.js](https://nodejs.org/).
-2. Нажмите кнопку **LTS** (она будет рекомендована для большинства пользователей).
-3. После загрузки откройте установочный файл и следуйте инструкциям на экране.
-4. Чтобы проверить, что Node.js установлен правильно, откройте командную строку или терминал и введите команду:
-
-   ```cli
-   node -v
-   ```
-
-   Если установка прошла успешно, вы увидите номер версии Node.js.
-
-### Шаг 3: Проверка и настройка браузера
-
-Ваш браузер также будет важной частью разработки на JavaScript, так как мы будем запускать JavaScript-скрипты в браузере. Убедитесь, что у вас установлен современный браузер, например, Google Chrome, Mozilla Firefox или Microsoft Edge. Мы будем использовать инструменты разработчика, которые есть в каждом из этих браузеров. Эти инструменты позволяют вам просматривать, отлаживать и анализировать ваш код непосредственно в браузере.
-
-#### Как открыть инструменты разработчика:
-
-1. **Google Chrome**:
-   - Нажмите правой кнопкой мыши на странице и выберите **Inspect** (или **Просмотр кода**).
-   - Либо используйте горячие клавиши: **F12** или **Ctrl + Shift + I** (для Windows) или **Cmd + Option + I** (для Mac).
-
-2. **Mozilla Firefox**:
-   - Нажмите правой кнопкой мыши на странице и выберите **Inspect** (или **Просмотр кода**).
-   - Либо используйте горячие клавиши: **F12** или **Ctrl + Shift + I** (для Windows) или **Cmd + Option + I** (для Mac).
-
-3. **Microsoft Edge**:
-   - Нажмите правой кнопкой мыши на странице и выберите **Inspect** (или **Просмотр кода**).
-   - Либо используйте горячие клавиши: **F12** или **Ctrl + Shift + I** (для Windows) или **Cmd + Option + I** (для Mac).
-
-#### Вкладка "Console" (Консоль)
-
-После того как вы открыли инструменты разработчика, перейдите на вкладку **Console**. Здесь будет отображаться весь вывод JavaScript-кода, который вы пишете. Например, если вы используете команду `console.log()`, результат будет выведен в эту консоль.
-
-- **Вывод сообщений**: Консоль отображает сообщения, которые выводятся с помощью `console.log()`, `console.error()` или других подобных функций.
-- **Ошибки**: Если ваш код содержит ошибки, они будут отображаться здесь. Это очень полезно для отладки.
-- **Ввод команд**: Вы также можете вводить JavaScript-команды напрямую в консоль, чтобы проверить их выполнение без необходимости обновлять страницу.
-
-#### Вкладка "Elements" (Элементы)
-
-На вкладке **Elements** вы можете увидеть структуру HTML вашего сайта. Это полезно для того, чтобы убедиться, что ваши изменения в DOM (например, изменения текста на странице с помощью JavaScript) были применены правильно.
-
-- Вы можете кликать по элементам в HTML-дереве и смотреть, какие изменения происходят на странице в реальном времени.
-- Также на этой вкладке вы можете изменять HTML-код и стили прямо в браузере, чтобы быстро увидеть, как это влияет на отображение страницы.
-
-#### Вкладка "Network" (Сеть)
-
-Вкладка **Network** позволяет отслеживать все сетевые запросы, которые делает ваш сайт. Это полезно, если ваш сайт загружает данные с серверов (например, с помощью AJAX-запросов).
-
-## Часть 2: Написание и запуск вашего первого скрипта на JavaScript
-
-Теперь, когда ваша среда готова, давайте напишем и запустим ваш первый сценарий JavaScript. В этом примере мы рассмотрим взаимодействие с пользователем и динамическое обновление веб-страницы, что сделает ее увлекательной и интерактивной.
-
-### Шаг 1: Создание HTML-файла
-
-JavaScript обычно работает в связке с HTML. Давайте создадим простой HTML-файл, который будет загружать и запускать наш JavaScript-код.
-
-1. Откройте VSCode.
-2. Создайте новый файл и сохраните его с расширением `.html`, например, `index.html`.
-3. Вставьте следующий код в файл:
-
-   ```html
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>My First JavaScript</title>
-   </head>
-   <body>
-       <h1>Добро пожаловать в мир JavaScript!</h1>
-       <p id="message">Здесь будет выводиться результат.</p>
-
-       <script src="script.js"></script>
-   </body>
-   </html>
-   ```
-
-   Этот код создаёт HTML-страницу с заголовком и параграфом, в котором будет отображаться результат работы JavaScript.
-
-### Шаг 2: Написание JavaScript-кода
-
-Теперь создадим файл для JavaScript.
-
-1. В VSCode создайте новый файл и сохраните его с именем `script.js` в той же папке, где находится ваш HTML-файл.
-2. Вставьте следующий код в `script.js`:
-
-   ```javascript
-   // Запрашиваем имя пользователя
-   const name = prompt("Как вас зовут?");
-   
-   // Получаем текущую дату и время
-   const date = new Date();
-   const hours = date.getHours();
-   let greeting;
-
-   // Формируем приветствие в зависимости от времени суток
-   if (hours < 12) {
-       greeting = "Доброе утро";
-   } else if (hours < 18) {
-       greeting = "Добрый день";
-   } else {
-       greeting = "Добрый вечер";
-   }
-
-   // Выводим персонализированное сообщение на страницу
-   const messageElement = document.getElementById("message");
-   messageElement.textContent = `${greeting}, ${name}! Текущее время: ${date.toLocaleTimeString()}`;
-   ```
-
-   Этот код делает следующее:
-   1. Запрашивает имя пользователя с помощью `prompt`.
-   2. Определяет текущее время суток и создает соответствующее приветствие.
-   3. Меняет текст в элементе с id `message` на странице, добавляя персонализированное приветствие и текущее время.
-
-### Шаг 3: Запуск скрипта
-
-Теперь давайте запустим наш скрипт.
-
-1. Откройте файл `index.html` в вашем браузере.
-2. Откройте инструменты разработчика (нажмите **F12** или правой кнопкой мыши выберите **Inspect**).
-3. Перейдите на вкладку **Console**. Вы не увидите никаких сообщений в консоли, потому что мы выводим результат прямо на страницу, но вы увидите, как на странице появится персонализированное приветствие с текущим временем.
-
-Когда вы откроете страницу, браузер запросит ваше имя с помощью окна `prompt`, а затем отобразит сообщение вроде:
-
-```console
-Доброе утро, Иван! Текущее время: 10:30:15
-```
-
-Поздравляю, вы только что создали свой первый скрипт на JavaScript!
-
-## Заключение
-
-В этой лекции мы настроили ваше рабочее окружение, установили необходимые инструменты и написали простую программу на JavaScript. Вы научились работать с HTML и JavaScript, а также запускать код в браузере. Это только начало, и в следующей лекции мы будем углубляться в более сложные концепции JavaScript.
+### Step 4: Running the Script via the Terminal in VS Code
+
+1. **Opening the Terminal in VS Code**:
+   - Go to the **Terminal** menu -> **New Terminal**. This will open the terminal at the bottom of the screen, already set to your current folder where the file is located.
+
+2. **Running the JavaScript File with Node.js**:
+   - In the terminal, type the command to run your JavaScript file using **Node.js**. For example, if you saved the file as `app.js`, type the following command:
+
+     ```bash
+     node app.js
+     ```
+
+3. **Viewing the Result**:
+   - You should see the result of the program’s execution in the terminal. It will look like this:
+
+     ```
+     Hello, World!
+     ```
+
+Congratulations, you just created your first JavaScript script!
+
+### Step 5: Experimenting with Code
+
+1. **Adding New Examples**:
+   - After running the first example, you can create a new file for each new example. It’s recommended to name the files according to their content. For example, for logical operators, create a file named `logical_operators.js`.
+
+2. **Example with Data Types**:
+   - Create a new file, for example, `data_types.js`, and paste the following code:
+
+     ```javascript
+     let greeting = "Hello, World!";
+     let age = 25;
+     let isActive = true;
+     let colors = ["red", "green", "blue"];
+
+     console.log("Message: " + greeting);
+     console.log("Age: " + age);
+     console.log("Is user active? " + isActive);
+     console.log("Favorite colors: " + colors.join(", "));
+     ```
+
+   - **Exercise for Students**:
+     1. Change the value of the `age` variable to your real age.
+     2. Add a new element to the `colors` array and output the updated array.
+   - Save the file and run it via the terminal using the command:
+
+     ```bash
+     node data_types.js
+     ```
+
+3. **Example with Logical Operators**:
+   - Create a new file, for example, `logical_operators.js`, and add the following code:
+
+     ```javascript
+     let age = 20;
+     let hasPermission = true;
+
+     // Using the AND (&&) operator
+     if (age >= 18 && hasPermission) {
+         console.log("Access granted");
+     } else {
+         console.log("Access denied");
+     }
+
+     // Using the OR (||) operator
+     let isStudent = false;
+     if (age < 18 || isStudent) {
+         console.log("You can get a discount");
+     } else {
+         console.log("Discount not available");
+     }
+
+     // Using the NOT (!) operator
+     let isActive = true;
+     if (!isActive) {
+         console.log("User is inactive");
+     } else {
+         console.log("User is active");
+     }
+     ```
+
+   - **Exercise for Students**:
+     1. Try changing the values of the variables and see how it affects the output of the program.
+     2. Create a new example with logical operators to check age and access.
+   - Save the file and run it:
+
+     ```bash
+     node logical_operators.js
+     ```
+
+4. **Example with Comparison Operators**:
+   - Create a new file, for example, `comparison_operators.js`, and use the following code:
+
+     ```javascript
+     let a = 10;
+     let b = 20;
+
+     if (a == b) {
+         console.log("a is equal to b");
+     } else {
+         console.log("a is not equal to b");
+     }
+
+     if (a === "10") {
+         console.log("a is strictly equal to '10'");
+     } else {
+         console.log("a is not strictly equal to '10'");
+     }
+
+     if (a < b) {
+         console.log("a is less than b");
+     }
+     ```
+
+   - **Exercise for Students**:
+     1. Try changing the values of `a` and `b` and see how it affects the comparison.
+     2. Use different data types in comparison operators and observe the results.
+   - Save the file and run it:
+
+     ```bash
+     node comparison_operators.js
+     ```
+
+5. **Example with Conditional Statements (if/else)**:
+   - Create a new file, for example, `conditionals.js`, and add the following code:
+
+     ```javascript
+     let score = 75;
+
+     if (score >= 90) {
+         console.log("Excellent!");
+     } else if (score >= 70) {
+         console.log("Good");
+     } else if (score >= 50) {
+         console.log("Satisfactory");
+     } else {
+         console.log("Failed");
+     }
+     ```
+
+   - **Exercise for Students**:
+     1. Try changing the `score` variable and see what the program outputs.
+     2. Create your own example with grades using conditional statements.
+   - Save the file and run it:
+
+     ```bash
+     node conditionals.js
+     ```
+
+6. **Example with Loops (for and while)**:
+   - Create a new file, for example, `loops.js`, and insert the following code:
+
+     ```javascript
+     let fruits = ["apple", "banana", "cherry", "orange"];
+
+     // for loop to iterate over the array
+     for (let i = 0; i < fruits.length; i++) {
+         console.log(fruits[i]);
+     }
+
+     // while loop
+     let count = 0;
+     while (count < 5) {
+         console.log("Counter: " + count);
+         count++;
+     }
+     ```
+
+   - **Exercise for Students**:
+     1. Create an array with different products and use the `for` loop to output all the elements of the array.
+     2. Change the condition in the `while` loop to output the counter from 5 to 10.
+   - Save the file and run it:
+
+     ```bash
+     node loops.js
+     ```
