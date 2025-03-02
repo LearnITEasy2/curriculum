@@ -31,9 +31,10 @@ Success is defined by employed students
 * Writing and running your first JavaScript script
 
 
-	•	Week 3: Functions and Modules
-	•	Creating reusable code blocks
-	•	Importing and using modules
+[Week 3: Functions and Modules](https://t.me/learniteasy2/22)
+* Creating reusable code blocks
+* Importing and using modules
+
 	•	Week 4: Working with Data
 	•	Lists, dictionaries, and data manipulation
 	•	Basic file I/O operations
