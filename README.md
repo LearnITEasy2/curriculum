@@ -35,15 +35,17 @@ Success is defined by employed students
 * Creating reusable code blocks
 * Importing and using modules
 
-	•	Week 4: Working with Data
-	•	Lists, dictionaries, and data manipulation
-	•	Basic file I/O operations
+[Week 4: Working with Data](./2_SEASON/WEEK_4/README.md)
+* Lists, dictionaries, and data manipulation
+* Basic file I/O operations
 
 🌟 Season 3: Web Development Basics
 
-	•	Week 1: HTML - Structuring the Web
-	•	Building your first webpage
-	•	Understanding tags and elements
+[Week 1: HTML - Structuring the Web](./3_SEASON/WEEK_1/README.md)
+* Building your first webpage
+* Understanding tags and elements
+
+
 	•	Week 2: CSS - Styling the Web
 	•	Adding styles to your webpage
 	•	Layouts, colors, and fonts

@@ -1,3 +1,5 @@
+![](./it-nauryz.png)
+
 # 🌍 Week 1: HTML - Structuring the Web
 
 ## 🏗️ What is HTML?
