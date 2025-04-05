@@ -46,21 +46,25 @@ Success is defined by employed students
 * Understanding tags and elements
 
 
-	•	Week 2: CSS - Styling the Web
-	•	Adding styles to your webpage
-	•	Layouts, colors, and fonts
-	•	Week 3: JavaScript Basics
-	•	Making your webpage interactive
-	•	Basic syntax and DOM manipulation
- 	•	Week 4 Introduction to Databases and APIs
-  	•	Intro about Databases
-   	•	Intro about APIs
- 	•	Week 5: Version control instruments
-	•	Version control with Git
-	•	Collaboration using GitHub
-	•	Week 6: Building a Simple Website (TODO list)
-	•	Combining HTML, CSS, and JavaScript
-	•	Project: Your personal portfolio site
+[Week 2: CSS - Styling the Web](./3_SEASON/WEEK_2/README.md)
+* Adding styles to your webpage
+* Layouts, colors, and fonts  
+  
+[Week 3: JavaScript Basics](./3_SEASON/WEEK_3/README.md)
+* Making your webpage interactive
+* Basic syntax and DOM manipulation
+  
+[Week 4: Introduction to Databases and APIs](./3_SEASON/WEEK_4/README.md)
+* Intro about Databases
+* Intro about APIs
+
+[Week 5: Version control instruments](./3_SEASON/WEEK_5/README.md)
+* Version control with Git
+* Collaboration using GitHub
+
+[Week 6: Building a Simple Website (TODO list)](./3_SEASON/WEEK_6/README.md)
+* Combining HTML, CSS, and JavaScript
+* Project: Your personal portfolio site
 
 🌟 Season 4: Exploring Specializations
 
